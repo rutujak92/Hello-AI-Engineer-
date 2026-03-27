@@ -19,3 +19,8 @@ Context engineering-
      - memory :resources that persist
      - converstation history
      - agents.md(coding agents)
+   -Agents.md
+    - markdown file hat is easy for LLM to read
+    - it generally inside projects root directly and acts as a context for llm to read instruction
+    - but it can be in each sub directory
+    - it follows hierarchy by overridding agents md from inner most sub directory
