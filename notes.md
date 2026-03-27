@@ -24,3 +24,11 @@ Context engineering-
     - it generally inside projects root directly and acts as a context for llm to read instruction
     - but it can be in each sub directory
     - it follows hierarchy by overridding agents md from inner most sub directory
+   
+Workflows for coding agents -
+  - SDD - specs driven development ->add a detailed specs to gude llm
+  - Plan - execute - review - test -> Run each activity with agent with manual touchpoints using feedbacks
+  - Yolo - give it one task and ket the agent completet it will full autonomy
+  - Ralph loops - describe the outcome and let agent run recursively to find out if its achieved
+    
+
